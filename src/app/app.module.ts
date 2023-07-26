@@ -11,6 +11,7 @@ import { HomeComponent } from './homePage/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { LocationStrategy, PathLocationStrategy } from '@angular/common';
     routingComponents,
     HomeComponent,
     FooterComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
